@@ -1,0 +1,128 @@
+*{
+padding:0;
+margin:0;
+box-sizing:border-box;
+}
+
+body{
+font-family:sans-serif;
+}
+
+#nav-bar{
+position:sticky;
+z-index:10;
+top:0;
+}
+
+.navbar{
+background-image:linear-gradient(to right, #a517ba, #5f1782);
+padding:0 !important;
+}
+
+.navbar-brand{
+padding-left:10px;
+color:white !important;
+font-weight:600;
+}
+
+.navbar-nav li{
+padding: 0 10px;
+}
+
+.navbar-nav li a{
+color:white !important;
+font-weight:600;
+float:center;
+text-align:center;
+}
+
+.fa-bars{
+color:white;
+font-size:30px !important;
+}
+
+.navbar-toggler{
+outline:none!important;
+}
+
+/*--------------------Banner Section-----------------------*/
+
+#banner{
+background-image:linear-gradient(to right, #a517ba, #5f1782);
+color:white;
+padding-top:5%;
+}
+
+.promo-title{
+font-size:40px;
+margin-top:100px;
+font-family: 'Merriweather', serif;
+color:orange;
+}
+
+.content{
+font-size:25px;
+font-family:serif;
+}
+
+.bottom-img{
+width:100%;
+height:1%;
+}
+
+/*-----------Services Section-----------*/
+
+#services h5{
+color:black;
+}
+
+h1{
+	color:black;
+}
+#services{
+margin-top:5%;
+}
+
+.card-img-top{
+height:150px;
+}
+
+.card-text{
+color:black;
+}
+.card{
+margin-top:8%;
+}
+
+.title::before{
+content:'';
+background:#7b1798;
+height:5px;
+width:200px;
+margin-left:auto;
+margin-right:auto;
+display:block;
+transform:translateY(63px);
+}
+
+.title::after{
+content:'';
+background:#7b1798;
+height:10px;
+width:50px;
+margin-left:auto;
+margin-right:auto;
+margin-bottom:40px;
+display:block;
+transform:translateY(8px);
+}
+
+#services .btn-primary{
+	margin-top:2%;
+border-radius:20px;
+box-shadow:none;
+padding:8px 25px;
+border:none;
+background-image:linear-gradient(to right, #a517ba, #5f1782);
+
+}
